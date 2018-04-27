@@ -8,6 +8,7 @@ CXXFLAGS="-O2 -fPIC"                                        \
             --disable-json-validation                       \
             --disable-ovs                                   \
             --disable-introspection                         \
+            --without-iptables                              \
             --with-udev-dir=/lib/udev                       \
             --with-session-tracking=systemd                 \
             --with-systemdsystemunitdir=/lib/systemd/system \

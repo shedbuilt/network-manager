@@ -1,8 +1,8 @@
 NAME=network-manager
 VERSION=1.10.6
-REVISION=1
+REVISION=2
 LICENSE=GPL-2.0-or-later
 SRC=http://ftp.gnome.org/pub/gnome/sources/NetworkManager/1.10/NetworkManager-1.10.6.tar.xz
 SRCMD5=de3c7147a693da6f80eb22f126086a14
-BUILDDEPS=systemd dbus-glib libndp libnl libnss wpa-supplicant
-INSTALLDEPS=systemd dbus-glib libndp libnl libnss wpa-supplicant
+BUILDDEPS=systemd dbus-glib libndp libnl libnss newt wpa-supplicant
+INSTALLDEPS=systemd dbus-glib libndp libnl libnss newt wpa-supplicant
