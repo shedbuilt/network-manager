@@ -13,6 +13,6 @@ CXXFLAGS="-O2 -fPIC"                                        \
             --with-session-tracking=systemd                 \
             --with-systemdsystemunitdir=/lib/systemd/system \
             --docdir=/usr/share/doc/network-manager-1.10.6 &&
-make -j $SHED_NUMJOBS &&
-make DESTDIR="$SHED_FAKEROOT" install &&
-install -v -Dm644 "${SHED_CONTRIBDIR}/NetworkManager.conf" "${SHED_FAKEROOT}/etc/NetworkManager/NetworkManager.conf.default"
+make -j $SHED_NUM_JOBS &&
+make DESTDIR="$SHED_FAKE_ROOT" install &&
+install -v -Dm644 "${SHED_PKG_CONTRIB_DIR}/NetworkManager.conf" "${SHED_FAKE_ROOT}/etc/NetworkManager/NetworkManager.conf.default"
